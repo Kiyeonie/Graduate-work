@@ -1,0 +1,89 @@
+@font-face {font-family: "HeinrichScript";
+	          src: url("../fonts/HeinrichScript.woff") format("woff"),
+		             url("../fonts/HeinrichScript.woff2") format("woff2"),
+		             url("../fonts/HeinrichScript.ttf") format("ttf");}
+
+@font-face {font-family: "regular";
+						src: url("../fonts/regular.woff") format("woff"),
+								 url("../fonts/regular.woff2") format("woff2"),
+								 url("../fonts/regular.ttf") format("ttf");}
+
+html {
+  background-image: url("../images/vipechka-yeda.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+  background-size: cover;
+}
+
+#right-content{
+	float: right;
+	margin-right: 35px;
+	height: 60%;
+	position: fixed;
+	top: 50px;
+  right: 70px;
+	width: 280px;
+}
+
+#buttons-product-reviews{
+	margin-top: 110%;
+}
+
+.links-product-reviews{
+	font-family: "HeinrichScript";
+  display: inline-block;
+  background: radial-gradient(#0A0042, #AA01FF);
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 1;
+  font-weight: 100;
+	width: 240px;
+  text-align: center;
+	margin-bottom: 20px;
+}
+
+.links-product-reviews:hover{
+	background: radial-gradient(#F56649, #9198e5);
+}
+
+#left-content{
+	margin: 70px;
+}
+
+#btitle{
+	width: 800px;
+	height: 180px;
+	background: rgba(242,213,187, 0.25);
+	padding: 10px;
+	border-radius: 20px;
+}
+
+#NKHZ{
+	margin-top: 15px;
+	font-family: "HeinrichScript";
+  font-size: 80px;
+	font-weight: 500;
+	background: linear-gradient(to bottom right, #0A0042, #AA01FF);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+#about{
+	font-family: "regular";
+	width: 800px;
+	height: auto;
+	padding: 10px;
+	border-radius: 20px;
+	color: #591902;
+	font-size: 20px;
+	background: rgba(242,213,187, 0.75);
+}

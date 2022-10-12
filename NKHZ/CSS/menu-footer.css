@@ -1,0 +1,327 @@
+@font-face {font-family: "HeinrichScript";
+	          src: url("../fonts/HeinrichScript.woff") format("woff"),
+		             url("../fonts/HeinrichScript.woff2") format("woff2"),
+		             url("../fonts/HeinrichScript.ttf") format("ttf");}
+
+@font-face {font-family: "regular";
+						src: url("../fonts/regular.woff") format("woff"),
+								 url("../fonts/regular.woff2") format("woff2"),
+								 url("../fonts/regular.ttf") format("ttf");}
+
+
+html {
+	height: 100%;
+  background-image: url("../images/vipechka-yeda.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+	height: 100%;
+}
+
+.dpbody{
+	min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#menu{
+	width: 100%;
+	height: 50px;
+	background: #F56649;
+  position: fixed;
+	margin-left: -8px;
+  margin-top: -8px;
+}
+
+#button-to-main{
+	margin-top: 4px;
+	margin-left: 8px;
+	font-family: "HeinrichScript";
+  font-size: 40px;
+	font-weight: 400;
+	background: linear-gradient(to bottom right, #0A0042, #AA01FF);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+#button-to-main:hover{
+  background: linear-gradient(to bottom right, #AA01FF, #0A0042);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+#button-enter {
+	font-family: "HeinrichScript";
+  float: right;
+  margin-right: 30px;
+  display: inline-block;
+  background: radial-gradient(#0A0042, #AA01FF);
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 1;
+  font-weight: 100;
+	margin-top: 2.5px;
+	width: 100px;
+  text-align: center;
+	border: none;
+}
+
+#button-enter:hover{
+	background: radial-gradient(#F56649, #9198e5);
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#link-exit{
+	font-family: "HeinrichScript";
+  float: right;
+  margin-right: 30px;
+  display: inline-block;
+  background: radial-gradient(#0A0042, #AA01FF);
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 1;
+  font-weight: 100;
+	margin-top: 2.5px;
+	width: 100px;
+  text-align: center;
+}
+
+#link-exit:hover{
+	background: radial-gradient(#F56649, #9198e5);
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.buttons-title{
+  font-family: "regular";
+	width: 100%;
+	height: auto;
+  font-size: 50px;
+  color: red;
+	margin: 10px 0 20px 0;
+}
+
+.form-enter-registration {
+	border: 3px solid #f1f1f1;
+	background-color: rgba(242,213,187, 0.75);
+}
+
+.input-menu {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 10%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	  border-radius: 20px;
+}
+
+.label-menu{
+	margin: 8px 10%;
+}
+
+#enter {
+	  font-family: "regular";
+		font-size: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 7px 10px;
+	  border-radius: 20px;
+    margin: 8px 20%;
+    border: none;
+    cursor: pointer;
+    width: 60%;
+}
+
+#enter:hover {
+    opacity: 0.8;
+		box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.title-form{
+	  text-align: center;
+    margin: 0px 0 12px 0;
+    position: relative;
+}
+
+#link-registration{
+  display: inline-block;
+  background: radial-gradient(#0A0042, #AA01FF);
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+	width: auto;
+  text-align: center;
+	border: none;
+}
+
+#link-registration:hover{
+	background: radial-gradient(#F56649, #9198e5);
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.container {
+    padding: 16px;
+}
+
+@media screen and (max-width: 300px) {
+    .cancelbtn {
+       width: 100%;}}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 60px;
+}
+
+.modal-content {
+  	font-family: "regular";
+		font-size: 20px;
+		background-color: rgba(242,213,187, 0.75);
+    margin: 5% auto 15% auto;
+    border: 2px solid #888;
+    width: 30%;
+}
+
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+#button-avatar{
+	float: right;
+	border-radius: 30px;
+	margin-right: 10px;
+	margin-top: 1px;
+	background: radial-gradient(closest-side, #0EE81D, #0EE81D, #F56649);
+}
+
+#button-avatar:hover{
+	border-radius: 20px;
+	background: radial-gradient(#AA01FF, #F56649);
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#button-korzinka{
+	float: right;
+	border-radius: 20px;
+	margin-right: 10px;
+	margin-top: 1px;
+}
+
+#button-korzinka:hover{
+	background: radial-gradient(#AA01FF, #F56649);
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#foot-info{
+	width: 100%;
+	height: 190px;
+	background-color: #BF6C3B;
+	font-family: "regular";
+	border-radius: 20px 20px 0px 0px;
+}
+
+#time-work{
+	width: 280px;
+	float: left;
+	margin-left: 30px;
+	line-height: 8px;
+}
+
+#adress-info{
+	width: 280px;
+	float: left;
+	margin-left: 30px;
+}
+
+#contact-info{
+	width: 280px;
+	float: left;
+	margin-left: 30px;
+	line-height: 8px;
+}
+
+#gps{
+	width: 280px;
+	float: left;
+	margin-left: 30px;
+	line-height: 1px;
+}
+
+.link-nav-p{
+	width: 130px;
+	padding: 6px 0px;
+	border-radius: 30px;
+}
+
+.link-nav-p:hover{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.link-nav{
+ 	text-decoration: none;
+ 	color: #5C2BCF;
+}
+
+.link-nav:hover{
+ 	color: #55F279;
+}
+
+.link-nav:visited{
+	color: #0A0042;
+}
+
+.link-nav:visited:hover{
+	color: #CB98FF;
+}

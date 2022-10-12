@@ -1,0 +1,42 @@
+#type-blocks{
+  margin: 20px 10px 10px 50px;
+  flex: 1 1 auto;
+}
+
+.types-of-products{
+  border-radius: 20px;
+  width: 20vw;
+  height: 23.25vw;
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  float: left;
+  text-decoration: none;
+}
+
+.types-of-products:hover{
+  box-shadow: 0 0 15px rgba(0,0,0,0.7);
+}
+
+.name-of-type{
+  width: 20vw;
+  font-family: "HeinrichScript";
+  font-size: 40px;
+	font-weight: 400;
+	background-color: rgba(242,213,187, 0.9);
+  border-radius: 0px 0px 20px 20px;
+  color: #AA01FF;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.photo{
+  border-radius: 20px 20px 0px 0px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  width: 20vw;
+  height: 20vw;
+  float: left;
+}

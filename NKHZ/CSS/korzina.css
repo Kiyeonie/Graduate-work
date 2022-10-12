@@ -1,0 +1,128 @@
+#content{
+  font-family: "regular";
+  font-size: 20px;
+  background-color: rgba(242,213,187, 0.75);
+  height: auto;
+  width: 94%;
+  border-radius: 20px;
+  margin: 34px auto 6px auto;
+}
+
+#right-content{
+  float: right;
+  width: 30%;
+  border-left: 3px solid rgba(0,0,0, 0.4);
+}
+
+.p-height{
+  line-height: 0px;
+}
+
+.otstup{
+  margin-left: 10%;
+  line-height: 0.4;
+}
+
+.label-basket{
+  margin-left: 15%;
+}
+
+.input-basket{
+  font-family: "regular";
+  font-size: 16px;
+  width: 80%;
+  padding: 8px 14px;
+  display: inline-block;
+  margin-bottom: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin-left: 10%;
+}
+
+#pay{
+  font-family: "regular";
+  display: inline-block;
+  background: radial-gradient(#0A0042, #AA01FF);
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 25px;
+  line-height: 1;
+  text-align: center;
+	border: none;
+  width: 120px;
+}
+
+#pay:hover{
+	background: radial-gradient(#F56649, #9198e5);
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#left-content{
+  border-radius: 20px;
+  width: 69%;
+  overflow-y: auto;
+  height: 43vw;
+}
+
+.info-of-product{
+  margin: 10px;
+  border-radius: 20px 20px 0px 0px;
+  border-bottom: 3px solid rgba(0,0,0, 0.4);
+  height: 9vw;
+}
+
+.checkbox-form{
+  display: inline-block;
+  margin-left: 20px;
+  vertical-align: 30px;
+}
+
+.checkbox-product{
+  height: 40px;
+  width: 40px;
+  border: none;
+  background: radial-gradient(#C178FF, #C178FF, rgba(0,0,0, 0.01), rgba(0,0,0, 0.01));
+  border-radius: 50%;
+}
+
+.checkbox-product:hover{
+  background: radial-gradient(#3FD5EB, #3FD5EB, rgba(0,0,0, 0.2), rgba(0,0,0, 0.01));
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.img-okno{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-left: -6px;
+  margin-top: -1px;
+}
+
+.photo-product{
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.product-description{
+  display: inline-block;
+  line-height: 0.2;
+  margin-left: 20px;
+}
+
+.delete{
+  float: right;
+  right: 20px;
+  margin-top: 20px;
+  color: #000;
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.delete:hover,
+.delete:focus {
+    color: red;
+    cursor: pointer;
+}

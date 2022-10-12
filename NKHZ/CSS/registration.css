@@ -1,0 +1,123 @@
+@font-face {font-family: "HeinrichScript";
+	          src: url("../fonts/HeinrichScript.woff") format("woff"),
+		             url("../fonts/HeinrichScript.woff2") format("woff2"),
+		             url("../fonts/HeinrichScript.ttf") format("ttf");}
+
+@font-face {font-family: "regular";
+						src: url("../fonts/regular.woff") format("woff"),
+								 url("../fonts/regular.woff2") format("woff2"),
+								 url("../fonts/regular.ttf") format("ttf");}
+
+html {
+  background-image: url("../images/vipechka-yeda.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+  background-size: cover;
+	overflow: hidden;
+}
+
+#menu{
+	width: 100%;
+	height: 50px;
+	background: #F56649;
+  position: fixed;
+	margin-left: -8px;
+  margin-top: -8px;
+}
+
+#button-to-main{
+	margin-top: 4px;
+	margin-left: 8px;
+	font-family: "HeinrichScript";
+  font-size: 40px;
+	font-weight: 400;
+	background: linear-gradient(to bottom right, #0A0042, #AA01FF);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+#button-to-main:hover{
+  background: linear-gradient(to bottom right, #AA01FF, #0A0042);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+.buttons-title{
+  font-family: "regular";
+	width: 100%;
+	height: auto;
+  font-size: 50px;
+  color: red;
+	margin: 10px 0 10px 0;
+}
+
+form {
+	border: 3px solid #f1f1f1;
+	background-color: rgba(242,213,187, 0.75);
+}
+
+input[type=text], input[type=password], input[type=tel] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 5px 10%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	  border-radius: 20px;
+}
+
+label{
+	margin: 5px 10%;
+}
+
+button[type=submit] {
+    font-family: "regular";
+		font-size: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 20%;
+    border: none;
+		border-radius: 20px;
+    cursor: pointer;
+    width: 60%;
+}
+
+button[type=submit]:hover {
+    opacity: 0.8;
+}
+
+.title-form{
+	  text-align: center;
+    margin: 0px 0 12px 0;
+    position: relative;
+}
+
+.container {
+    padding: 16px;
+}
+
+.modal {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 0px;
+}
+
+.modal-content {
+    font-family: "regular";
+		font-size: 20px;
+		background-color: rgba(242,213,187, 0.75);
+    margin: 10px auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 2px solid #888;
+    width: 30%;
+}

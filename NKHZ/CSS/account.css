@@ -1,0 +1,87 @@
+#content{
+  font-family: "regular";
+  font-size: 20px;
+  width: 65%;
+  height: auto;
+  margin: 5% auto;
+  background-color: rgba(242,213,187, 0.75);
+  padding: 50px;
+  border-radius: 20px;
+}
+
+#left-content{
+  font-size: 20px;
+  width: 250px;
+  margin-right: 20px;
+}
+
+#avatarka-account{
+  border-radius: 25px;
+  background: linear-gradient(to bottom right, #AA01FF, #0EE81D, #AA01FF);
+  margin-bottom: 5px;
+}
+
+#plus{
+  font-size: 35px;
+  line-height: 0.5px;
+  vertical-align: -5px;
+}
+
+#button-korzina{
+	border-radius: 50%;
+}
+
+#button-korzina:hover{
+	background: radial-gradient(#AA01FF, #F56649);
+}
+
+#right-content{
+  width: 550px;
+  float: right;
+}
+
+.label-account{
+  width: 180px;
+  float: left;
+  display: inline-block;
+  padding-top: 11px;
+}
+
+.input-account{
+  font-family: "regular";
+  font-size: 20px;
+  width: 250px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: none;
+  margin-bottom: 8px;
+  background: none;
+  border-radius: 20px;
+}
+
+.input-account:focus{
+  background-color: white;
+}
+
+#save-cansel-buttons{
+  display: none;}
+
+.save{
+	font-family: "regular";
+  font-size: 20px;
+  width: 160px;
+  color: white;
+  padding: 7px 10px;
+  border-radius: 20px;
+  margin: 8px 5%;
+  border: none;
+  cursor: pointer;
+}
+
+.save:hover{
+  opacity: 0.8;
+}
+
+#cansel-button{
+  float:left;
+}

@@ -1,0 +1,155 @@
+#content{
+  background-color: rgba(242,213,187, 0.75);
+  height: auto;
+  width: 98vw;
+  border-radius: 20px;
+  margin: 45px 0 2px 0;
+}
+
+#left-content{
+  height: 30vw;
+  width: 23vw;
+  position: fixed;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.name-choice{
+  font-family: "regular";
+  font-size: 22px;
+  line-height: 2px;
+  color: #0A0042;
+}
+
+p.name-choice{
+  margin-left: 30px;
+  font-size: 27px;
+  color: #A9095B;
+}
+
+.sortby{
+  color: #4909AB;
+}
+
+.ot-do-input{
+  font-family: "regular";
+  font-size: 20px;
+  width: 100%;
+  padding: 5px 8px;
+  display: inline-block;
+  border:none;
+  outline: none;
+  box-sizing: border-box;
+  border-radius: 15px;
+  text-align: center;
+  color: #4909AB;
+}
+
+.ot-do-label{
+  width: 26%;
+  padding: 2px;
+  display: inline-flex;
+  border-radius: 15px;
+  background: rgba(0,0,0, 0.4);
+}
+
+.ot-do-label:hover{
+  background: linear-gradient(to right, #F06152, #F7B368, #E0CD69, #B9F768, #64ED95);
+}
+
+.ot-otstup{
+  margin-right: 10%;
+}
+
+#measure{
+  margin-top: 40px;
+}
+
+#button-sort{
+  font-family: "regular";
+  margin-bottom: 10px;
+  display: inline-block;
+  background: radial-gradient(#0A0042, #AA01FF);
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 25px;
+  line-height: 1;
+  text-align: center;
+	border: none;
+  text-decoration: none;
+}
+
+#button-sort:hover{
+  background: linear-gradient(to right, #F06152, #F7B368, #E0CD69, #B9F768, #64ED95);
+  border: 1px solid black;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#p-btn{
+  line-height: 0.01;
+}
+
+#right-content{
+  font-family: "regular";
+  font-size: 23px;
+  line-height: 2px;
+  float: right;
+  height: auto;
+  min-height: 29vw;
+  width: 70vw;
+  border-radius: 0px 20px 20px 0px;
+  padding: 20px;
+  border-left: 3px solid rgba(0,0,0, 0.5);
+}
+
+.info-of-product{
+  border-bottom: 3px solid rgba(0,0,0, 0.5);
+  margin-bottom: 20px;
+}
+
+.right-info{
+  width: 49vw;
+  /*border: 1px solid black;*/
+  float: right;
+}
+
+.title-product{
+  font-size: 30px;
+  color: #8A0060;
+}
+
+.consist{
+  line-height: 1;
+}
+
+.left-info{
+  width: 20vw;
+  /*border: 1px solid black;*/
+}
+
+.photo-product{
+  width: 200px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.button-add-to-korzina{
+  font-family: "regular";
+  margin-bottom: 10px;
+  display: inline-block;
+  background: radial-gradient(#0A0042, #AA01FF);
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 25px;
+  line-height: 1;
+  text-align: center;
+	border: none;
+  text-decoration: none;
+}
+
+.button-add-to-korzina:hover{
+	background: radial-gradient(#F56649, #9198e5);
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
